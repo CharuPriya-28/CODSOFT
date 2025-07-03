@@ -22,7 +22,7 @@ body) use any of these commands to get a workout tip
 
 ## 📹 Demo Video
 
-👉 [**Click here to watch the demo video**](https://drive.google.com/file/d/1zQLqVeY7MZYKWKBoT1V3dho5RunN990N/view?usp=drive_link)
+👉 [**Click here to watch the demo video**](https://drive.google.com/file/d/1zQLqVeY7MZYKWKBoT1V3dho5RunN990N/view?usp=sharingk)
 
 
 
