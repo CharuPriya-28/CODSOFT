@@ -20,8 +20,9 @@ body) use any of these commands to get a workout tip
 - Run: python fitbuddy_bot.py
 
 
-## 📹 Demo Video
-[▶️ Watch Demo Video](https://drive.google.com/file/d/1_1vi7TojOLQVW8mAjI6npts-fE3Tpb_S/view?usp=sharing)
+
+- also demo video uploaded in README.md
+
 
 
 
