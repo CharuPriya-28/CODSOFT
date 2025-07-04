@@ -7,7 +7,7 @@ Stay motivated, get personalized workout and nutrition tips, and reach your fitn
 
 ## 📽️ Demo Video
 
-👉 [**Watch Demo Video**](https://drive.google.com/file/d/1_1vi7TojOLQVW8mAjI6npts-fE3Tpb_S/view?usp=sharing)  
+👉 [**Watch Demo Video**](https://drive.google.com/file/d/115fWwsUwtfBh439n39OStwbodmry_fQE/view?usp=sharing)  
 
 ---
 
