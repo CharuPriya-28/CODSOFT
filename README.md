@@ -21,8 +21,8 @@ body) use any of these commands to get a workout tip
 
 
 ## 📹 Demo Video
+[▶️ Watch Demo Video](demo.mp4)
 
-👉 [**Click here to watch the demo video**](https://drive.google.com/file/d/1zQLqVeY7MZYKWKBoT1V3dho5RunN990N/view?usp=sharingk)
 
 
 
