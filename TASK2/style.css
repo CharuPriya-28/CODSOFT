@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: url('galaxy.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.stars, .stars2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(white 1px, transparent 1px);
+  background-size: 50px 50px;
+  z-index: 0;
+  animation: moveStars 100s linear infinite;
+}
+
+.stars2 {
+  background-size: 100px 100px;
+  animation: moveStars 200s linear infinite reverse;
+}
+
+@keyframes moveStars {
+  from { background-position: 0 0; }
+  to { background-position: 10000px 5000px; }
+}
+
+.ufo {
+  position: fixed;
+  font-size: 7rem;
+  z-index: 1;
+}
+
+.ufo1 {
+  animation: ufoFloat 50s infinite alternate ease-in-out;
+}
+
+.ufo2 {
+  animation: ufoFloat2 60s infinite alternate ease-in-out;
+}
+
+@keyframes ufoFloat {
+  0% { top: 0%; left: 0%; }
+  25% { top: 20%; left: 80%; }
+  50% { top: 50%; left: 50%; }
+  75% { top: 80%; left: 20%; }
+  100% { top: 0%; left: 0%; }
+}
+
+@keyframes ufoFloat2 {
+  0% { top: 90%; left: 90%; }
+  25% { top: 60%; left: 10%; }
+  50% { top: 30%; left: 70%; }
+  75% { top: 10%; left: 30%; }
+  100% { top: 90%; left: 90%; }
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0 0 20px #00e5ff, 0 0 40px #00e5ff inset;
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  color: white;
+  text-shadow:
+    0 0 5px white,
+    0 0 10px #fff,
+    0 0 20px #0ff,
+    0 0 30px #0ff;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #fff;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+.cell {
+  width: 120px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid #0ff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #0ff, inset 0 0 10px #0ff;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cell:hover {
+  transform: translateY(-5px) rotateX(10deg) rotateY(10deg);
+  box-shadow: 0 0 30px #fff, inset 0 0 20px #fff;
+}
+
+.cell.X {
+  color: #ff4c4c;
+  text-shadow: 0 0 10px #ff4c4c, 0 0 20px #ff4c4c;
+}
+
+.cell.O {
+  color: #00e5ff;
+  text-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff;
+}
+
+.confetti {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 20, 20, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+
+.popup-content {
+  background: rgba(50, 50, 50, 0.7);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 30px #0ff;
+  animation: blast 2s ease-out forwards;
+}
+
+.popup-content p {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.popup-content button {
+  background: #0ff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+@keyframes blast {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.particle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: fly 2s ease-out forwards;
+}
+
+@keyframes fly {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: translateY(-200px) scale(0); opacity: 0; }
+}

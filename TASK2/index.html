@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cosmic Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Stars -->
+  <div class="stars"></div>
+  <div class="stars2"></div>
+
+  <!-- Two big UFOs -->
+  <div class="ufo ufo1">🛸</div>
+  <div class="ufo ufo2">🛸</div>
+
+  <!-- Confetti -->
+  <div class="confetti" id="confetti"></div>
+
+  <!-- Winner Popup -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <p id="winMessage"></p>
+      <button id="resetBtn">Play Again</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Cosmic Tic‑Tac‑Toe</h1>
+    <h2>You (❌) vs AI (⭕)</h2>
+    <div class="board" id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
