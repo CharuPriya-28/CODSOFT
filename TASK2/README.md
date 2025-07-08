@@ -39,10 +39,7 @@ Hey Earthling! 🖖 Welcome to my **Cosmic Tic-Tac-Toe** — where you battle a 
 
 ## 🎮 Demo Video
 
-[▶️ Watch Demo Video](demo.mp4)
-
-
-
+https://github.com/user-attachments/assets/fd14b1ed-e2a4-47a5-9e47-271ee8e78f94
 
 ---
 
