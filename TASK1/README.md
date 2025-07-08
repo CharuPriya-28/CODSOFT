@@ -7,9 +7,10 @@ Stay motivated, get personalized workout and nutrition tips, and reach your fitn
 
 ## 📽️ Demo Video
 
-👉 [**Watch Demo Video**](https://drive.google.com/file/d/1sUl95iAqhi6TTA0QfQTPuIj7e2QonmW7/view?usp=drivesdk)  
+👉 [**Watch Demo Video**]
 
----
+---[Chatbot demo.webm](https://github.com/user-attachments/assets/a7d980a4-afa9-453f-9e74-bd12f823a917)
+
 
 ## 🚀 Features
 
