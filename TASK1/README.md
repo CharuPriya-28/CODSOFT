@@ -9,7 +9,7 @@ Stay motivated, get personalized workout and nutrition tips, and reach your fitn
 
 👉 [**Watch Demo Video**]
 
----[Chatbot demo.webm](https://github.com/user-attachments/assets/a7d980a4-afa9-453f-9e74-bd12f823a917)
+https://github.com/user-attachments/assets/343215d5-4f3d-47d3-8e04-0e5afcf8c738
 
 
 ## 🚀 Features
