@@ -37,7 +37,9 @@ Hey Earthling! 🖖 Welcome to my **Cosmic Tic-Tac-Toe** — where you battle a 
 
 ## 🌌 Demo
 
-[![Cosmic Tic-Tac-Toe Demo](https://img.shields.io/badge/Live_Demo-Click_Here-00ffff?style=for-the-badge&logo=github)](YOUR_LIVE_LINK_HERE)
+ 🎮 Demo Video
+
+<video src="demo.mp4" controls width="600"></video>E)
 
 ---
 
