@@ -17,6 +17,10 @@ Welcome to **Task 3** of my **CodSoft Internship** — a fun and practical **Rec
 
 Check out the full walkthrough of how this Recommendation System works:
 
+
+https://github.com/user-attachments/assets/820c88a9-87cf-4b1e-a787-821f83935d24
+
+
 ---
 
 ## 🛠️ Tech Stack
@@ -41,4 +45,4 @@ Check out the full walkthrough of how this Recommendation System works:
 
 1️⃣ **Clone the Repo**
 ```bash
-git clone https://github.com/yourusername/codsoft.git
+git clone https://github.com/yourusername/codsoft.git and run
