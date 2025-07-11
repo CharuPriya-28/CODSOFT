@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg {
+  background: url('images/bg.jpg') no-repeat center center/cover;
+}
+
+.container {
+  margin: 10vh auto;
+  max-width: 800px;
+}
+
+h1, h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.buttons button,
+.genre-card,
+#recommendCard,
+#nextBtn,
+.backBtn {
+  background: #1DB954;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 20px #1DB95488;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.buttons button:hover,
+.genre-card:hover,
+#nextBtn:hover,
+.backBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #1DB954aa;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.genre-card {
+  background: #191414ee;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  width: 200px;
+  cursor: pointer;
+  position: relative;
+}
+
+.genre-card img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#recommendCard {
+  background: #191414ee;
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 2rem;
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+}
+
+#recommendCard img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.backBtn {
+  background: #444;
+}
